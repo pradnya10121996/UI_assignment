@@ -1,0 +1,539 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  overflow: auto;
+}
+p {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+h2 {
+  font-size: 22px;
+}
+a {
+  text-decoration: none;
+}
+/* common css */
+.d-flex {
+  display: flex;
+}
+.d-block {
+  display: block;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.align-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: start;
+}
+.align-end {
+  align-items: end;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-start {
+  justify-content: start;
+}
+.align-self-start {
+  align-self: flex-start;
+}
+
+.blue-bg {
+  background: #637fff;
+}
+
+.text-blue {
+  color: #637fff;
+}
+.w-100 {
+  width: 100%;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.text-purple {
+  color: #491060b5;
+}
+.green-bg {
+  background: #15cfb5;
+}
+.light-greyBg {
+  background: #f3f9fb;
+}
+.text-white {
+  color: #ffff;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
+.font-weight-400 {
+  font-weight: 400;
+}
+.text-13 {
+  font-size: 13px;
+}
+.text-11 {
+  font-size: 11px;
+}
+.line-height-24 {
+  line-height: 24px;
+}
+.text-20 {
+  font-size: 20px;
+}
+.text-22 {
+  font-size: 22px;
+}
+.p-5 {
+  padding: 5px;
+}
+.p-4 {
+  padding: 4px;
+}
+.py-4 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.py-25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.px-30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.pl-5 {
+  padding-left: 5px;
+}
+.pr-5 {
+  padding-right: 5px;
+}
+.pt-5 {
+  padding-top: 5px;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+.pt-40 {
+  padding-top: 40px;
+}
+.pb-5 {
+  padding-bottom: 5px;
+}
+.my-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.ml-30 {
+  margin-left: 30px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.my-2 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.m-2 {
+  margin: 2px;
+}
+.my-25 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.p-20 {
+  padding: 20px;
+}
+.w-50 {
+  width: 50%;
+}
+.w-84{
+  width: 84%;
+}
+.mb-100 {
+  margin-bottom: 100px;
+}
+footer {
+  background: #2a2a2a;
+  color: #ffff;
+}
+.greyText {
+  color: #bdbdbd;
+}
+.progressBar p {
+  font-size: 0;
+}
+.contextBlock .select {
+  letter-spacing: 0px;
+}
+.progressBarBlock span {
+  color: #8c8c8c;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-align: right;
+  margin-right: 30px;
+  width: 15%;
+}
+.fa-plus-circle {
+  color: #8dc63f;
+  font-size: 20px;
+}
+.fa-minus-circle {
+  color: #cf1915;
+  font-size: 20px;
+}
+.reviewBlock {
+  height: 750px;
+  overflow-y: scroll;
+}
+.select {
+  border: 1px solid #dddddd;
+  padding: 5px;
+  color: #696a8c;
+}
+.border-bottom-grey {
+  border-bottom: 1px solid #edeff5;
+}
+.navWrapper {
+  width: 100%;
+  box-shadow: -2px -2px 8px #c2bfb9;
+  font-weight: 700;
+}
+
+.mainWrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.nav {
+  width: 100%;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #000000;
+  padding: 20px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 14px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 12px 10px;
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.nav > .nav-links > a:hover {
+  color: #637fff;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+.fa-search {
+  color: #637fff;
+  font-size: 25px;
+}
+.breadCrumb {
+  font-weight: 500;
+  padding: 10px 0px;
+}
+.breadCrumb span {
+  color: #491060f0;
+}
+.imgBlock {
+  flex-grow: 2;
+}
+.specificationBlock {
+  flex-grow: 3;
+}
+.ratingBlock {
+  flex-grow: 1;
+}
+.shopNowBtn {
+  padding: 18px 50px;
+  border-radius: 78px;
+}
+.specsBlock {
+  color: #15cfb5;
+  background: #f4f9fc;
+}
+.specsBlock p {
+  font-size: 12px;
+}
+.specsBlock p:hover {
+  color: #fff;
+  background: #637fff;
+}
+
+.box-shadow {
+  -moz-box-shadow: -1px -1px 8px #dfdcdc;
+  -webkit-box-shadow: -1px -1px 8px #dfdcdc;
+  box-shadow: -1px -1px 8px #dfdcdc;
+}
+.leftBlock {
+  width: 750px;
+}
+.rightBlock {
+  width: calc(100% - 780px);
+}
+.headerBlock {
+  background: #f4f9fc;
+  padding: 20px 30px;
+}
+.contextBlock {
+  padding: 20px 30px;
+}
+.leftBlock .contextBlock p {
+  width: 200px;
+}
+.headerBlock img {
+  vertical-align: middle;
+  width: 15px;
+}
+.m-0-auto {
+  margin: 0 auto;
+}
+.star {
+  width: 15px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #80808026;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f4f9fc;
+  border-radius: 2px;
+}
+.progressBar {
+  background: #eeeeee;
+}
+.greenProgressBar {
+  background-image: linear-gradient(to right, #42d4bc, #9bea6b);
+}
+.pinkProgressBar {
+  background-image: linear-gradient(to right, #f10773, #fd5807);
+}
+.blueProgressBar {
+  background-image: linear-gradient(to right, #00c3fb, #38d2c5);
+}
+
+.numberLine span:after {
+  content: "";
+  height: 15px;
+  width: 1px;
+  background: #a29c9c61;
+  position: absolute;
+  top: 10px;
+  left: 27px;
+}
+.text {
+  width: 80%;
+}
+footer .mainWrapper div {
+  flex-grow: 1;
+  width: 100%;
+}
+.checkBox{
+  border: 1px solid #dddddd;
+  width: 120px;
+  letter-spacing: 0;
+  position: relative;
+  margin-top: 20px;
+}
+.checkBox label{
+  margin-left: 20px;
+}
+
+input[type="checkbox"]{
+  width: 20px;
+  height: 18px;
+  background-color: white;
+  margin: 0;
+  vertical-align: middle;
+  border-right: 1px solid #dddddd;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  vertical-align: middle;
+}
+.checkbox-custom:checked {
+  background-color: #637fff;
+}
+
+@media (max-width: 768px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+  }
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: #7389f9;
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #7389f9;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 59px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+  .ratingBlock {
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .specificationBlock {
+    padding: 20px;
+    text-align: center;
+  }
+  .iconsBlock {
+    text-align: center;
+  }
+  .my-25{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .text-20 {
+    font-size: 14px;
+}
+.text-14{
+  font-size: 12px;
+}
+  .leftBlock {
+    width: 300px;
+  }
+  .rightBlock {
+    width: unset;
+  }
+  .infoBlock{
+    padding:10px
+  }
+  .leftBlock .contextBlock p{
+    width: 150px;
+  }
+  .shopNowBtn {
+    padding: 15px 30px;
+  }
+  .contextBlock {
+    padding: 20px 10px;
+  }
+  .select {
+    margin: 4px;
+  }
+  .headerBlock {
+    padding: 20px 10px;
+  }
+  .progressBar {
+    height: 18px;
+  }
+  .progressBarBlock {
+    padding-bottom: 20px;
+  }
+  .breadCrumb {
+    font-size: 12px;
+  }
+
+}
+
